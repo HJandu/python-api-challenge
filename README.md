@@ -9,6 +9,15 @@ Now, I know what you may be thinking: **“That’s obvious. It gets hotter.”*
   Although the whole project is broken down into two main parts, WeatherPy is broken into a further two parts, which will be discussed below.
   
   [WeatherPy](#weatherpy) | [VacationPy](#vacationpy)
+  
+### <ins>API Key<ins/>
+  
+If you wish to run the scripts locally for both [WeatherPy](WeatherPy.ipynb), and [**VacationPy**](VacationPy.ipynb) then you will need to obtain an API keys. For part one, you will need to obtain an API key from the OpenWeatherMap API, which can be obtained [here](https://home.openweathermap.org/api_keys). After you have the OpenWeatherMap API key, in the **WeatherPy** folder, [**config.py**](WeatherPy/api_keys.py) file, add the API key there. See image below:
+
+```bash
+weather_api_key="API_KEY_HERE"
+
+```
 
 ### <ins>WeatherPy<ins/>
 
