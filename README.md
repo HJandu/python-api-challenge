@@ -14,65 +14,65 @@ Now, I know what you may be thinking: **“That’s obvious. It gets hotter.”*
 
 What is the weather like as we approach the equator line? This analysis will focus on the relationships between 'Latitude' and Temperature(F), Humidity(%), Cloudiness(%), and Wind Speed(mph).
 
-### Part 1
+### Part one
 
 This part focuses on the whole dataset.
 
 ### Temperature (F) vs. Latitude
 
 <p align="center">
-  <img src="Images/atitude_vs_temperature.png">
+  <img src="Images/latitude_vs_temperature.png">
 </p>
 
-The scatter plot between city latitude and maximum (max) temperature(F) shows that cities located closer to the equator line, the max temperature tends to be higher than cities that are located further from the equator line. The reason is those cities are closer to the sun than the others. (Blaettler, *Why Is it Hot at the Equator But Cold at the Poles?* 2019)
-
+The above scatter plot shows that any cities located closer to the equator line, tend to have higher temperatures and for any cities further away from the equator line tend to be lower in temperature. The closer the city to the equator line, the closer the city to the sun. 
+  
 ---
 ### Humidity (%) vs. Latitude
 
 <p align="center">
-  <img src="WeatherPy/Images/lat_humd.png">
+  <img src="Images/latitude_vs_humidity.png">
 </p>
 
-The scatter plot between city latitude and humidity(%) shows the irrelevant relation of the city's location and percentage of humidity. Humidity in the air 
+The above scatter plot shows the irrelevant relation of the city's location and percentage of humidity.
 
 ---
 ### Cloudiness (%) vs. Latitude
 
 <p align="center">
-  <img src="WeatherPy/Images/lat_cloud.png">
+  <img src="Images/latitude_vs_cloudiness.png">
 </p>
 
-The scatter plot between city latitude and cloudiness(%) shows that there is no significant relation between city location and the density of clouds.
+The scatter plot shows that there is no significant relation between city location and the density of clouds.
 
 ---
 ### Wind Speed (mph) vs. Latitude
 
 <p align="center">
-  <img src="WeatherPy/Images/lat_wind.png">
+  <img src="Images/latitude_vs_wind_speed.png">
 </p>
 
-The scatter plot between city latitude and wind speed(mph) shows that where cities are located is not related to the speed of wind. There are a few cities located between latitude 20 to 80 degrees where the wind speed is higer than others. However, the samples are small to make a conclusion that there is a relation between latitude and wind speed.
+This scatter plot shows that there is no significant link between where the cities are located and the wind speed. 
 
 ---
-### Part II
+### Part two
 
-*Comparison of Northern and Southern Hemisphere*
+In this part of the project, I have comapred the above factors of Northern and Southern Hemisphere
 
 ### Northern and Southern Hemisphere - Temperature (F) vs. Latitude
 
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/north_temp.png" ></td>
+    <td><img src="Images/north_temp.png" ></td>
     <td><img src="WeatherPy/Images/south_temp.png" ></td>
   </tr>
  </table>
 
-As the figures presented, linear regression lines and correlation values between latitude (north and south) and maximum temperature which illustrate that city latitude has an effect on temperature. In the other word, city latitude is correlated to temperature. The linear regression line for the northern hemisphere is an inverse correlation which means the lower latitude (closer the equator line) in the northern area, the higher the temperature. On the other hand, the linear regression line for the southern hemisphere is positive correlation which means the higher the latitude (closer the equator line) in the southern area, the higher the temperature. Moreover, r-values represent the predictable temperature data based on latitude.
+  
+**<ins>Discussion about the linear relationship:<ins/>**  
 
-**Further Analysis**
-
-The relation between temperature and other meteorological data; for example, humidity, wind speed or cloudiness, to discover other factors that affect the degree of temperature.
-
+The linear regression lines and correlation values between latitude (north and south) and maximum temperature show that city latitude is correlated to temperature. This proves the point I had mentioned earlier. The further away we go from the equater line (latitude 0) the maximum Temperature (F) will decrease. The closer we get to the equater(latitude 0) the maximum Temperature (F) will increase.
+  
+  
 ---
 ### Northern and Southern Hemisphere - Humidity (%) vs. Latitude
 
@@ -83,11 +83,9 @@ The relation between temperature and other meteorological data; for example, hum
 </tr>
  </table>
 
-As the figures presented, linear regression lines and correlation values between latitude (north and south) and percentage of humidity which illustrate the weak correlation between city location and humidity in that area. Also, the low r-squared values in both graphs indicate that this model might not be efficient in order to predict the humidity based on latitude.
+**<ins>Discussion about the linear relationship:<ins/>** 
 
-**Further Analysis**
-
-Humidity is the concentration of water vapor present in the air (Wikipedia, *Humidity* 2020). Therefore, the temperature might be one of the factors that causes the density of humidity. The correlation between humidity and temperature would be a further analysis.
+The above figures show that there is a weak correlation between city location and humidity in a particular area. Humidty can not be measured or predicted when making connections with the Latitude (location). 
 
 ---
 ### Northern and Southern Hemisphere - Cloudiness (%) vs. Latitude
@@ -99,11 +97,9 @@ Humidity is the concentration of water vapor present in the air (Wikipedia, *Hum
 </tr>
  </table>
 
-As the figures presented, correlation values between latitude (north and south) and percentage of cloudiness which illustrate the weak correlation between city location and cloudiness in that area. Linear regression lines and the low r-squared values in both graphs indicate that latitude might not be a significant factor that causes cloudiness.
+**<ins>Discussion about the linear relationship:<ins/>** 
 
-**Further Analysis**
-
-Other meteorological data,for example; temperature, might be considered to have more accurate analysis as an other variable to predict the cloudiness.
+The above figures show that there is a weak correlation between city location and cloudiness. The cloudiness can not be measured or predicted when making connections with the Latitude (location). 
 
 ---
 ### Northern and Southern Hemisphere - Wind Speed (mph) vs. Latitude
@@ -115,41 +111,30 @@ Other meteorological data,for example; temperature, might be considered to have 
 </tr>
  </table>
 
-As the figures presented, correlation values between latitude (north and south) and wind speed (mph) which illustrate the weak correlation between city location and wind speed in that area. Also, the linear regression lines and low r-squared values in both graphs support that latitude data might not be a good indicator to predict wind speed.
+**Discussion about the linear relationship:** 
 
-**Further Analysis**
-
-Wind is air in motion. It is produced by the uneven heating of the earth's surface by the sun (Wicker, *Wind* 2015). That implies that temperature might be a significant factor causing wind. The further analysis would be finding statistical data between temperature and wind speed and visualize it into a plot.
-
+The above figures show that there is a weak correlation between city location and wind speed. The wind speed can not be measured, defined or predicted when making connections with the Latitude (location). 
+  
 ---
 ## VacationPy
 
-[Data Analysis Process](https://nbviewer.jupyter.org/github/abpuccini/python-api-challenge/blob/main/VacationPy/VacationPy.ipynb) (Jupyter Notebook)
-
+For this part of the project I used my weather data skills to plan future vacations. I also uses Jupyter notebooks, the geoViews Python library, and the Geoapify API to help create map visualisations.
+  
+  
 ### Humidity City Map
 
-The map presented below shows the humidity in each city. The color green, yellow and red represent from lowest to highest humidity repectively.
-
+The map below displays a point for every city in the 'city_data_df' DataFrame. The size of the point is the humidity in each city.
+  
 <p align="center">
   <img src="VacationPy/Images/humidity_map.png">
 </p>
 
 ### Vacation Map
 
-There are several places that are interesting to visit on the vacation period. Here is the map shown the cities with maximum temperature between 70 and 80 degrees fahrenheit, wind speed less than 10 mph, zero percent cloudiness and humidity less than 70%.
+This map will help plan vacations by looking at the above factors, as well as outputting the hotel name and the country as additional information in the hover message for each city on the map.
 
 <p align="center">
   <img src="VacationPy/Images/hotel_map.png">
 </p>
 
----
-## References
 
-Blaettler, K. G. (2019, November 22). *Why Is it Hot at the Equator But Cold at the Poles?* https://sciencing.com/hot-equator-but-cold-poles-6908312.html.
-
-Wicker, C. (2015). *Wind*. Weather Wiz Kids weather information for kids. https://www.weatherwizkids.com/weather-wind.htm. 
-
-Wikimedia Foundation. (2020, October 2). *Humidity*. Wikipedia. https://en.wikipedia.org/wiki/Humidity. 
-
----
-© Atcharaporn B Puccini
