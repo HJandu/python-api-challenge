@@ -1,6 +1,6 @@
-# <ins>Python api Challenge<ins/>
+# <p align="center"><ins>Python API Challenge<ins/></p>
 
-  ## <ins>Backgound<ins/>
+  ## <ins>Background<ins/>
 
   Data's true power is its ability to definitively answer questions. So, in this project I will showcase what I have learned about Python requests, APIs, and JSON traversals to answer a fundamental question: **"What is the weather like as we approach the equator?"**
 
@@ -10,11 +10,11 @@ Now, I know what you may be thinking: **“That’s obvious. It gets hotter.”*
   
   [WeatherPy](#weatherpy) | [VacationPy](#vacationpy)
 
-### WeatherPy
+### <ins>WeatherPy<ins/>
 
 What is the weather like as we approach the equator line? This analysis will focus on the relationships between 'Latitude' and Temperature(F), Humidity(%), Cloudiness(%), and Wind Speed(mph).
 
-### Part one
+### <ins>**Part one**<ins/>
 
 This part focuses on the whole dataset.
 
@@ -54,11 +54,12 @@ The scatter plot shows that there is no significant relation between city locati
 This scatter plot shows that there is no significant link between where the cities are located and the wind speed. 
 
 ---
-### Part two
+### <ins>Part two<ins/>
 
 In this part of the project, I have comapred the above factors of Northern and Southern Hemisphere
 
-### Northern and Southern Hemisphere - Temperature (F) vs. Latitude
+### <p align="center">Northern and Southern Hemisphere - Temperature (F) vs. Latitude</p>
+
 
 <table>
   <tr>
@@ -67,6 +68,7 @@ In this part of the project, I have comapred the above factors of Northern and S
   </tr>
  </table>
 
+
   
 **<ins>Discussion about the linear relationship:<ins/>**  
 
@@ -74,7 +76,7 @@ The linear regression lines and correlation values between latitude (north and s
   
   
 ---
-### Northern and Southern Hemisphere - Humidity (%) vs. Latitude
+### <p align="center">Northern and Southern Hemisphere - Humidity (%) vs. Latitude</p>
 
 <table>
   <tr>
@@ -88,7 +90,7 @@ The linear regression lines and correlation values between latitude (north and s
 The above figures show that there is a weak correlation between city location and humidity in a particular area. Humidty can not be measured or predicted when making connections with the Latitude (location). 
 
 ---
-### Northern and Southern Hemisphere - Cloudiness (%) vs. Latitude
+### <p align="center">Northern and Southern Hemisphere - Cloudiness (%) vs. Latitude</p>
 
 <table>
   <tr>
@@ -102,7 +104,7 @@ The above figures show that there is a weak correlation between city location an
 The above figures show that there is a weak correlation between city location and cloudiness. The cloudiness can not be measured or predicted when making connections with the Latitude (location). 
 
 ---
-### Northern and Southern Hemisphere - Wind Speed (mph) vs. Latitude
+### <p align="center">Northern and Southern Hemisphere - Wind Speed (mph) vs. Latitude</p>
 
 <table>
   <tr>
@@ -126,7 +128,7 @@ For this part of the project I used my weather data skills to plan future vacati
 The map below displays a point for every city in the 'city_data_df' DataFrame. The size of the point is the humidity in each city.
   
 <p align="center">
-  <img src="VacationPy/Images/humidity_map.png">
+  <img src="Images/map_plot2.png">
 </p>
 
 ### Vacation Map
@@ -134,7 +136,12 @@ The map below displays a point for every city in the 'city_data_df' DataFrame. T
 This map will help plan vacations by looking at the above factors, as well as outputting the hotel name and the country as additional information in the hover message for each city on the map.
 
 <p align="center">
-  <img src="VacationPy/Images/hotel_map.png">
+  <img src="Images/map_plot_1.png">
+</p>
+
+  
+  <p align="center">
+  <img src="Images/map_plot2_hover.png">
 </p>
 
 
