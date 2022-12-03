@@ -56,15 +56,15 @@ This scatter plot shows that there is no significant link between where the citi
 ---
 ### <ins>Part two<ins/>
 
-In this part of the project, I have comapred the above factors of Northern and Southern Hemisphere
+In this part of the project, I have compared the above factors of Northern and Southern Hemisphere
 
 ### <p align="center">Northern and Southern Hemisphere - Temperature (F) vs. Latitude</p>
 
 
 <table>
   <tr>
-    <td><img src="Images/north_temp.png" ></td>
-    <td><img src="WeatherPy/Images/south_temp.png" ></td>
+    <td><img src="Images/North_Temp_line.png" ></td>
+    <td><img src="/Images/south_temp_line.png" ></td>
   </tr>
  </table>
 
@@ -80,8 +80,8 @@ The linear regression lines and correlation values between latitude (north and s
 
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/north_humid.png"/>
-    <td><img src="WeatherPy/Images/south_humid.png"/> 
+    <td><img src="Images/north_humid_line.png"/>
+    <td><img src="Images/south_humid_line.png"/> 
 </tr>
  </table>
 
@@ -94,8 +94,8 @@ The above figures show that there is a weak correlation between city location an
 
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/north_cloud.png"/>
-    <td><img src="WeatherPy/Images/south_cloud.png"/> 
+    <td><img src="Images/north_cloud_line.png"/>
+    <td><img src="Images/south_cloud_line.png"/> 
 </tr>
  </table>
 
@@ -108,8 +108,8 @@ The above figures show that there is a weak correlation between city location an
 
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/north_wind.png"/>
-    <td><img src="WeatherPy/Images/south_wind.png"/> 
+    <td><img src="Images/north_wind_line.png"/>
+    <td><img src="Images/south_wind_line.png"/> 
 </tr>
  </table>
 
