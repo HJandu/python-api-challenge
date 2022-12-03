@@ -113,12 +113,12 @@ The above figures show that there is a weak correlation between city location an
 </tr>
  </table>
 
-**Discussion about the linear relationship:** 
+**<ins>Discussion about the linear relationship:<ins/>** 
 
 The above figures show that there is a weak correlation between city location and wind speed. The wind speed can not be measured, defined or predicted when making connections with the Latitude (location). 
   
 ---
-## VacationPy
+## <ins>VacationPy<ins/>
 
 For this part of the project I used my weather data skills to plan future vacations. I also uses Jupyter notebooks, the geoViews Python library, and the Geoapify API to help create map visualisations.
   
